@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-import { email } from "../assets";
+import { email, githubicon, linkedinicon } from "../assets";
 
 //template_igyg67w
 //service_px0s50i
