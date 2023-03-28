@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import githubicon from "./githubicon.svg";
+import linkedinicon from "./linkedinicon.svg";
 import email from "./email.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -39,6 +41,8 @@ export {
     mobile,
     web,
     github,
+    githubicon,
+    linkedinicon,
     email,
     menu,
     close,

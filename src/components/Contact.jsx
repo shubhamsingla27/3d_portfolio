@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-import { email } from "../assets";
+import { email, githubicon, linkedinicon } from "../assets";
 
 //template_igyg67w
 //service_px0s50i
@@ -93,10 +93,34 @@ const Contact = () => {
                     </span>
                 </a>
 
+                <div className="flex mt-2 gap-2">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/shubhamsingla27"
+                    >
+                        <img
+                            className="w-6 h-6 inline-block align-middle "
+                            src={githubicon}
+                            alt="email"
+                        />
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/shubham-singla27/"
+                    >
+                        <img
+                            className="w-6 h-6 inline-block align-middle"
+                            src={linkedinicon}
+                            alt="email"
+                        />
+                    </a>
+                </div>
                 <form
                     ref={formRef}
                     onSubmit={handleSubmit}
-                    className="mt-12 flex flex-col gap-8"
+                    className=" mt-6 flex flex-col gap-8"
                 >
                     <label className="flex flex-col">
                         <span className="text-white font-medium mb-4">
