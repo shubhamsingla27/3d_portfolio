@@ -21,6 +21,8 @@ import {
     loanPredictor,
     nca,
     pageRank,
+    newsnotif,
+    spotifymusiccontroller,
     threejs,
 } from "../assets";
 
@@ -53,7 +55,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Machine Learning Enthusiast",
         icon: creator,
     },
 ];
@@ -196,7 +198,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "awsAmplify",
                 color: "pink-text-gradient",
             },
         ],
@@ -210,15 +212,15 @@ const projects = [
             "Text processing and vectorization of dataset containing 20000 newsgroup documents and performed clustering using gensim, scikit-learn in Python to classify the archives into 20 distinct classes.",
         tags: [
             {
-                name: "react",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "jupyterNotebook",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "k-meansClustring",
                 color: "pink-text-gradient",
             },
         ],
@@ -232,15 +234,15 @@ const projects = [
             "Ranked 685,230 web pages from google web-graph data set in Spark using power iteration and naive algorithms separately and showed the superiority of using multiple partitions over no partition.",
         tags: [
             {
-                name: "nextjs",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "powerIteration",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "naiveImplementation",
                 color: "pink-text-gradient",
             },
         ],
@@ -248,25 +250,47 @@ const projects = [
         source_code_link: "https://github.com/shubhamsingla27/PageRank",
     },
     {
-        name: "PageRank",
+        name: "Spotify Music Controller",
         description:
-            "Ranked 685,230 web pages from google web-graph data set in Spark using power iteration and naive algorithms separately and showed the superiority of using multiple partitions over no partition.",
+            "React web application to consume Spotify REST APIs for controlling music playback with backend developed using Django web framework.",
         tags: [
             {
-                name: "nextjs",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "django",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "spotifyAPI",
                 color: "pink-text-gradient",
             },
         ],
-        image: pageRank,
-        source_code_link: "https://github.com/shubhamsingla27/PageRank",
+        image: spotifymusiccontroller,
+        source_code_link:
+            "https://github.com/shubhamsingla27/spotify_music_controller",
+    },
+    {
+        name: "Event-Driven Notification Service",
+        description:
+            "Designed publisher-subscribe model that provides real-time notifications to subscribers utilizing distributed system protocols such as broadcasting, concurrency control, shared memory.",
+        tags: [
+            {
+                name: "docker",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "python",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: newsnotif,
+        source_code_link: "https://github.com/shubhamsingla27/NewsNotification",
     },
 ];
 

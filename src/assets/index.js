@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import email from "./email.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -28,6 +29,8 @@ import ridecell from "./company/ridecell.jpg";
 import loanPredictor from "./loanPredictor.png";
 import nca from "./nca.png";
 import pageRank from "./pageRank.png";
+import newsnotif from "./newsnotif.jpg";
+import spotifymusiccontroller from "./spotifymusiccontroller.png";
 
 export {
     logo,
@@ -36,6 +39,7 @@ export {
     mobile,
     web,
     github,
+    email,
     menu,
     close,
     css,
@@ -57,4 +61,6 @@ export {
     loanPredictor,
     nca,
     pageRank,
+    newsnotif,
+    spotifymusiccontroller,
 };

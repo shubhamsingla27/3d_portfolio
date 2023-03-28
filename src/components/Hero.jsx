@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { AvatarCanvas } from "./canvas";
 
 const Hero = () => {
@@ -26,10 +25,7 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            {/* <div className="flex h-2/5 w-2/5">
-                <AvatarCanvas />
-            </div> */}
-            {/* <ComputersCanvas /> */}
+
             <div className=" h-2/3 w-full absolute xs:bottom-10 bottom- flex justify-center items-center ">
                 <AvatarCanvas />
             </div>

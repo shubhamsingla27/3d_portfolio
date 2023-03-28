@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { email } from "../assets";
+
 //template_igyg67w
 //service_px0s50i
 // arO2QxJL_WSZ3k583
@@ -79,6 +81,17 @@ const Contact = () => {
             >
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+                <a href="mailto:shubhamcu27@gmail.com" className="">
+                    <img
+                        className="w-6 h-6 inline-block align-middle mr-2"
+                        src={email}
+                        alt="email"
+                    />
+                    <span className="inline-block align-middle">
+                        shubhamcu27@gmail.com
+                    </span>
+                </a>
 
                 <form
                     ref={formRef}
