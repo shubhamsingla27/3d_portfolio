@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import email from "./email.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,14 +22,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import infy from "./company/infy.png";
+import infywtbg from "./company/infyblue.png";
+import ridecell from "./company/ridecell.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import loanPredictor from "./loanPredictor.png";
+import nca from "./nca.png";
+import pageRank from "./pageRank.png";
+import newsnotif from "./newsnotif.jpg";
+import spotifymusiccontroller from "./spotifymusiccontroller.png";
 
 export {
     logo,
@@ -37,6 +39,7 @@ export {
     mobile,
     web,
     github,
+    email,
     menu,
     close,
     css,
@@ -52,11 +55,12 @@ export {
     tailwind,
     typescript,
     threejs,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
+    infy,
+    infywtbg,
+    ridecell,
+    loanPredictor,
+    nca,
+    pageRank,
+    newsnotif,
+    spotifymusiccontroller,
 };
