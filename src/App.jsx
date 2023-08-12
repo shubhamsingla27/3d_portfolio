@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import {
@@ -11,6 +12,25 @@ import {
 } from "./components";
 
 const App = () => {
+    const [isDesktop, setIsDesktop] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsDesktop(window.innerWidth >= 768); // Adjust the breakpoint as needed
+        };
+
+        // Initial check
+        handleResize();
+
+        // Attach the event listener
+        window.addEventListener("resize", handleResize);
+
+        // Clean up the event listener on unmount
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-primary">
@@ -23,7 +43,7 @@ const App = () => {
                 <Works />
                 <div className="relative z-0">
                     <Contact />
-                    <StarsCanvas />
+                    {isDesktop && <StarsCanvas />}
                 </div>
             </div>
         </BrowserRouter>
