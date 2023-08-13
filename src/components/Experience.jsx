@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import {
     VerticalTimeline,
     VerticalTimelineElement,
@@ -59,16 +59,46 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+    const [isDesktop, setIsDesktop] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsDesktop(window.innerWidth >= 768); // Adjust the breakpoint as needed
+        };
+
+        // Initial check
+        handleResize();
+
+        // Attach the event listener
+        window.addEventListener("resize", handleResize);
+
+        // Clean up the event listener on unmount
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
     return (
         <>
-            <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} text-center`}>
-                    What I have done so far
-                </p>
-                <h2 className={`${styles.sectionHeadText} text-center`}>
-                    Work Experience.
-                </h2>
-            </motion.div>
+            {isDesktop ? (
+                <motion.div variants={textVariant()}>
+                    <p className={`${styles.sectionSubText} text-center`}>
+                        What I have done so far
+                    </p>
+                    <h2 className={`${styles.sectionHeadText} text-center`}>
+                        Work Experience.
+                    </h2>
+                </motion.div>
+            ) : (
+                <div>
+                    {" "}
+                    <p className={`${styles.sectionSubText} text-center`}>
+                        What I have done so far
+                    </p>
+                    <h2 className={`${styles.sectionHeadText} text-center`}>
+                        Work Experience.
+                    </h2>
+                </div>
+            )}
 
             <div className="mt-20 flex flex-col">
                 <VerticalTimeline>
