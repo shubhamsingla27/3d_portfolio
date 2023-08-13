@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className=" h-2/3 w-full absolute xs:bottom-10 bottom-32 flex justify-center items-center ">
+            <div className=" h-96 sm:h-2/3 w-full absolute xs:bottom-10 bottom-12 flex justify-center items-center ">
                 <AvatarCanvas />
             </div>
 
