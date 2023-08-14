@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import githubicon from "./githubicon.svg";
+import projectLinkWhite from "./projectLinkWhite.svg";
 import linkedinicon from "./linkedinicon.svg";
 import email from "./email.svg";
 import menu from "./menu.svg";
@@ -19,6 +20,7 @@ import nca from "./nca.png";
 import pageRank from "./pageRank.png";
 import newsnotif from "./newsnotif.jpg";
 import spotifymusiccontroller from "./spotifymusiccontroller.png";
+import carShowcase from "./carShowcase.png";
 
 export {
     logo,
@@ -28,6 +30,7 @@ export {
     web,
     github,
     githubicon,
+    projectLinkWhite,
     linkedinicon,
     email,
     menu,
@@ -40,4 +43,5 @@ export {
     pageRank,
     newsnotif,
     spotifymusiccontroller,
+    carShowcase,
 };

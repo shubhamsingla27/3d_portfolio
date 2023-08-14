@@ -11,6 +11,7 @@ import {
     pageRank,
     newsnotif,
     spotifymusiccontroller,
+    carShowcase,
 } from "../assets";
 
 export const navLinks = [
@@ -86,6 +87,32 @@ const experiences = [
 ];
 
 const projects = [
+    {
+        name: "Cars Showcase",
+        description:
+            "A Next.js app that allows users to browse through a collection of cars and view their details. Get the Rent estimation of a particular car.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "RapidAPI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: carShowcase,
+        project_link: "https://carhub.ssingla.me/",
+        source_code_link: "https://github.com/shubhamsingla27/car_hub",
+    },
     {
         name: "Loan Default Predictor",
         description:
