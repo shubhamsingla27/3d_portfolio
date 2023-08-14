@@ -56,21 +56,19 @@ const experiences = [
         iconBg: "#383E56",
         date: "Feb 2019 - May 2019",
         points: [
-            "Developed a Food Delivery Application which allows users to order food from local restaurants & fast food chains and track the order status in real-time with a map following the delivery driver and ETA information.",
-            "User interface was developed using React JS, Django web framework and Python for the backend and SQLite as the database.",
-            "Deployed the React application using a Continuous Deployment pipeline in Heroku, which eliminates about 2.5 hours of manual deployment effort per merge.",
+            "Designed and implemented a Food Delivery App, enabling users to place orders from nearby eateries and monitor real-time order progress via a map linked to the delivery driver's location and estimated time of arrival.",
+            "Developed the user interface using React JS, Django web framework, and Python for backend functionality, supported by SQLite as the database. Employed AWS Amplify's Continuous Deployment pipeline to automate React app deployment, streamlining the process and saving approximately 2.5 hours of manual deployment time per merge.",
         ],
     },
     {
-        title: "Software Systems Engineer",
+        title: "Software Engineer",
         company_name: "Infosys",
         icon: infywtbg,
         iconBg: "#E6DEDD",
         date: "Aug 2019 - Jul 2021",
         points: [
-            "Developed an internal employee facing and a public facing web application to promote the partnership and to provide information about the collaboration with client to various stakeholders. This project helped in boosting the relationship with the customer and was one of the many factors that helped in securing Infosys's largest deal yet ever estimated at about $1.5B over 10 years.",
-            "Full stack development using React JS, HTML/CSS, JavaScript, Bootstrap with a mobile responsive web experience for frontend and backend APIs in ExpressJS and MongoDB as database.",
-            "Designed and developed a mortgage calculator using Javascript frameworks like ReactJS and PEGA that helped borrowers understand how much they can borrow and estimated monthly outflow considering applicant age, current obligations, income, and other factors.",
+            "Led the creation of two web applications—an internal employee-focused and an external public-facing app—aimed at promoting partnership and disseminating collaboration details to clients, consultants, and media; combined frontend technologies like React JS, JavaScript, CSS, and Bootstrap for a mobile-responsive design, alongside robust Express.js APIs and MongoDB backend; ultimately contributing to enhancing customer relationships and playing a pivotal role in securing a record-breaking $1.5B 10-year deal for Infosys.",
+            "Developed an Angular-powered mortgage calculator, facilitating borrower assessment of loan eligibility and monthly costs through multifaceted considerations, while achieving seamless integration with PEGA for optimal data exchange and deploying multiple REST web services in a production environment, culminating in a notable 10% enhancement in the website's visitor-to-conversion rate.",
         ],
     },
     {
@@ -80,10 +78,9 @@ const experiences = [
         iconBg: "#383E56",
         date: "Jun 2022 - Sep 2022",
         points: [
-            "Developed a full-stack nearby attraction finding module that shows points of interest centered around the end-user on a map based on their geolocation and selected preferences.",
-            "Created a reusable and responsive Material-UI table wrapper component to replace existing custom-built data tables used at multiple places throughout different web applications.",
-            "Integrated Jest test coverage report in a multitude of frontend applications used by different customers as a DevOps Github action so that the application can be thoroughly tested in the development phase itself.",
-            "Added internationalization and localization functionality in the backend and frontend through Phrase integration so the same product can be used in different regions effectively.",
+            "Engineered a full-stack module for locating nearby attractions, displaying user-centric points of interest on a map based on geolocation and preferences. Additionally, designed an adaptable Material-UI table wrapper, replacing custom data tables across various web applications.",
+            "Implemented robust internationalization and localization capabilities using seamless Phrase integration within both the backend and frontend, this empowered the company to effectively deploy the same product across diverse regions, fostering broader global reach.",
+            "Transformed testing by seamlessly integrating Jest coverage reports into multiple customer-facing frontend apps. As a DevOps GitHub Action, this ensures rigorous development-phase testing, elevating overall quality and functionality.",
         ],
     },
 ];
