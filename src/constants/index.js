@@ -88,6 +88,36 @@ const experiences = [
 
 const projects = [
     {
+        name: "SnapSphere Social App",
+        description:
+            "A social media app built using React, React-Query, Appwrite, and TypeScript. Users can share photos, like posts, and save posts.",
+        tags: [
+            {
+                name: "React.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Appwrite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Shadcn-UI",
+                color: "green-text-gradient",
+            },
+        ],
+        image: carShowcase,
+        project_link: "https://snapsphere.ssingla.me/",
+        source_code_link: "https://github.com/shubhamsingla27/SnapSphere",
+    },
+    {
         name: "Cars Showcase",
         description:
             "A Next.js app that allows users to browse through a collection of cars and view their details. Get the Rent estimation of a particular car.",
@@ -200,27 +230,27 @@ const projects = [
         source_code_link:
             "https://github.com/shubhamsingla27/spotify_music_controller",
     },
-    {
-        name: "Event-Driven Notification Service",
-        description:
-            "Designed publisher-subscribe model that provides real-time notifications to subscribers utilizing distributed system protocols such as broadcasting, concurrency control, shared memory.",
-        tags: [
-            {
-                name: "docker",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "python",
-                color: "green-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: newsnotif,
-        source_code_link: "https://github.com/shubhamsingla27/NewsNotification",
-    },
+    // {
+    //     name: "Event-Driven Notification Service",
+    //     description:
+    //         "Designed publisher-subscribe model that provides real-time notifications to subscribers utilizing distributed system protocols such as broadcasting, concurrency control, shared memory.",
+    //     tags: [
+    //         {
+    //             name: "docker",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "python",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "nodejs",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: newsnotif,
+    //     source_code_link: "https://github.com/shubhamsingla27/NewsNotification",
+    // },
 ];
 
 export { services, experiences, projects };
