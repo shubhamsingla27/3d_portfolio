@@ -21,6 +21,7 @@ import pageRank from "./pageRank.png";
 import newsnotif from "./newsnotif.jpg";
 import spotifymusiccontroller from "./spotifymusiccontroller.png";
 import carShowcase from "./carShowcase.png";
+import snapsphereimg from "./snapsphereimg.png";
 
 export {
     logo,
@@ -44,4 +45,5 @@ export {
     newsnotif,
     spotifymusiccontroller,
     carShowcase,
+    snapsphereimg,
 };

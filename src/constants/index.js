@@ -12,6 +12,7 @@ import {
     newsnotif,
     spotifymusiccontroller,
     carShowcase,
+    snapsphereimg,
 } from "../assets";
 
 export const navLinks = [
@@ -113,7 +114,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: carShowcase,
+        image: snapsphereimg,
         project_link: "https://snapsphere.ssingla.me/",
         source_code_link: "https://github.com/shubhamsingla27/SnapSphere",
     },
