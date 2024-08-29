@@ -154,7 +154,7 @@ const projects = [
             },
         ],
         image: carShowcase,
-        project_link: "https://carhub.ssingla.me/",
+        project_link: "https://car-hub-umber.vercel.app/",
         source_code_link: "https://github.com/shubhamsingla27/car_hub",
     },
     {
