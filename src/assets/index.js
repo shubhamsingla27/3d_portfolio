@@ -14,6 +14,7 @@ import close from "./close.svg";
 import infy from "./company/infy.png";
 import infywtbg from "./company/infyblue.png";
 import ridecell from "./company/ridecell.jpg";
+import trynarrative_logo from "./company/trynarrative_logo.png";
 
 import loanPredictor from "./loanPredictor.png";
 import nca from "./nca.png";
@@ -46,4 +47,5 @@ export {
     spotifymusiccontroller,
     carShowcase,
     snapsphereimg,
+    trynarrative_logo
 };

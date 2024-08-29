@@ -6,6 +6,7 @@ import {
     infy,
     infywtbg,
     ridecell,
+    trynarrative_logo,
     loanPredictor,
     nca,
     pageRank,
@@ -55,7 +56,7 @@ const experiences = [
         company_name: "Infosys",
         icon: infy,
         // iconBg: "#E6DEDD",
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "Feb 2019 - May 2019",
         points: [
             "Designed and implemented a Food Delivery App, enabling users to place orders from nearby eateries and monitor real-time order progress via a map linked to the delivery driver's location and estimated time of arrival.",
@@ -66,7 +67,7 @@ const experiences = [
         title: "Software Engineer",
         company_name: "Infosys",
         icon: infywtbg,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "Aug 2019 - Jul 2021",
         points: [
             "Led the creation of two web applications—an internal employee-focused and an external public-facing app—aimed at promoting partnership and disseminating collaboration details to clients, consultants, and media; combined frontend technologies like React JS, JavaScript, CSS, and Bootstrap for a mobile-responsive design, alongside robust Express.js APIs and MongoDB backend; ultimately contributing to enhancing customer relationships and playing a pivotal role in securing a record-breaking $1.5B 10-year deal for Infosys.",
@@ -77,12 +78,24 @@ const experiences = [
         title: "Software Engineer Intern",
         company_name: "Ridecell",
         icon: ridecell,
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "Jun 2022 - Sep 2022",
         points: [
             "Engineered a full-stack module for locating nearby attractions, displaying user-centric points of interest on a map based on geolocation and preferences. Additionally, designed an adaptable Material-UI table wrapper, replacing custom data tables across various web applications.",
             "Implemented robust internationalization and localization capabilities using seamless Phrase integration within both the backend and frontend, this empowered the company to effectively deploy the same product across diverse regions, fostering broader global reach.",
             "Transformed testing by seamlessly integrating Jest coverage reports into multiple customer-facing frontend apps. As a DevOps GitHub Action, this ensures rigorous development-phase testing, elevating overall quality and functionality.",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Narrative",
+        icon: trynarrative_logo,
+        iconBg: "#383E56",
+        date: "Jan 2024 - Present",
+        points: [
+            "Led the development of a Canvas Workflow Management tool from scratch with React, including the creation of backend services in Django. This tool enabled effortless data upload, extraction, manipulation, and mapping, with automated workflow triggers based on schedules, data changes, or new email invoices.",
+            "Engineered advanced backend functionalities, leveraging algorithms and AI LLMs to intelligently convert raw, unstructured data into refined, actionable information. Also, redesigned existing web application and created user authentication flows, resulting in a consistent and intuitive layout.",
+            "Successfully onboarded 3 newly acquired customers to the canvas tool, allowing them to create custom workflows and gain greater autonomy, which led to increased engagement and satisfaction.",
         ],
     },
 ];
@@ -115,7 +128,7 @@ const projects = [
             },
         ],
         image: snapsphereimg,
-        project_link: "https://snapsphere.ssingla.me/",
+        project_link: "https://snapsphere.vercel.app/",
         source_code_link: "https://github.com/shubhamsingla27/SnapSphere",
     },
     {
