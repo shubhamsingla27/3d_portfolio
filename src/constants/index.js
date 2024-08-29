@@ -6,7 +6,7 @@ import {
     infy,
     infywtbg,
     ridecell,
-    trynarrative_logo,
+    trynarrativelogo,
     loanPredictor,
     nca,
     pageRank,
@@ -78,7 +78,7 @@ const experiences = [
         title: "Software Engineer Intern",
         company_name: "Ridecell",
         icon: ridecell,
-        iconBg: "#E6DEDD",
+        iconBg: "#FFFFFF",
         date: "Jun 2022 - Sep 2022",
         points: [
             "Engineered a full-stack module for locating nearby attractions, displaying user-centric points of interest on a map based on geolocation and preferences. Additionally, designed an adaptable Material-UI table wrapper, replacing custom data tables across various web applications.",
@@ -89,8 +89,8 @@ const experiences = [
     {
         title: "Software Engineer",
         company_name: "Narrative",
-        icon: trynarrative_logo,
-        iconBg: "#383E56",
+        icon: trynarrativelogo,
+        iconBg: "#222526",
         date: "Jan 2024 - Present",
         points: [
             "Led the development of a Canvas Workflow Management tool from scratch with React, including the creation of backend services in Django. This tool enabled effortless data upload, extraction, manipulation, and mapping, with automated workflow triggers based on schedules, data changes, or new email invoices.",
